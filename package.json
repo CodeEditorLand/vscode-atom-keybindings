@@ -25,7 +25,7 @@
     "email": "nikola@nikolahristov.tech",
     "url": "https://nikolahristov.tech"
   },
-  "publisher": "ms-vscode",
+  "publisher": "playform",
   "type": "module",
   "scripts": {
     "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. .",
