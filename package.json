@@ -1,13 +1,9 @@
 {
   "name": "atom-keybindings",
   "displayName": "Atom Keymap",
-  "description": "Popular Atom keybindings for Visual Studio Code",
   "version": "0.0.1",
-  "publisher": "ms-vscode",
-  "engines": {
-    "vscode": "1.75.0"
-  },
-  "license": "MIT",
+  "private": "false",
+  "description": "Popular Atom keybindings for Visual Studio Code",
   "categories": [
     "Keymaps"
   ],
@@ -15,13 +11,32 @@
     "keybindings",
     "keymap"
   ],
-  "preview": true,
-  "icon": "atom-keyboard-padded.png",
-  "extensionKind": [
-    "ui",
-    "workspace"
-  ],
+  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
+  "bugs": {
+    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Nikola Hristov",
+    "email": "nikola@nikolahristov.tech",
+    "url": "https://nikolahristov.tech"
+  },
+  "publisher": "ms-vscode",
+  "type": "module",
+  "scripts": {
+    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. .",
+    "prepublishOnly": "TypeScriptESBuild Source/**/*.ts"
+  },
   "contributes": {
+    "configurationDefaults": {
+      "editor.multiCursorModifier": "ctrlCmd",
+      "editor.formatOnPaste": true,
+      "workbench.list.typeNavigationMode": "trigger"
+    },
     "keybindings": [
       {
         "mac": "a",
@@ -540,37 +555,22 @@
         "command": "workbench.action.terminal.clear",
         "when": "terminalFocus"
       }
-    ],
-    "configurationDefaults": {
-      "editor.multiCursorModifier": "ctrlCmd",
-      "editor.formatOnPaste": true,
-      "workbench.list.typeNavigationMode": "trigger"
-    }
-  },
-  "scripts": {
-    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. .",
-    "prepublishOnly": "TypeScriptESBuild Source/**/*.ts"
+    ]
   },
   "devDependencies": {
     "@vscode/test-web": "0.0.48",
     "typescript-esbuild": "0.3.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
+  "engines": {
+    "vscode": "1.75.0"
   },
-  "bugs": {
-    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
-  },
-  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
-  "type": "module",
-  "private": "false",
   "publishConfig": {
     "access": "public"
   },
-  "author": {
-    "name": "Nikola Hristov",
-    "email": "nikola@nikolahristov.tech",
-    "url": "https://nikolahristov.tech"
-  }
+  "icon": "atom-keyboard-padded.png",
+  "preview": true,
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ]
 }
