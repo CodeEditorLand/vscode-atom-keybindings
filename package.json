@@ -549,7 +549,7 @@
 		]
 	},
 	"devDependencies": {
-		"@vscode/test-web": "0.0.33"
+		"@vscode/test-web": "0.0.48"
 	},
 	"engines": {
 		"vscode": "1.75.0"
