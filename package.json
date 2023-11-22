@@ -2,8 +2,8 @@
   "name": "atom-keybindings",
   "displayName": "Atom Keymap",
   "description": "Popular Atom keybindings for Visual Studio Code",
-  "version": "3.3.0",
-  "publisher": "ms-vscode",
+  "version": "0.0.1",
+  "publisher": "playform",
   "license": "MIT",
   "preview": true,
   "icon": "atom-keyboard-padded.png",
@@ -538,16 +538,29 @@
     }
   },
   "scripts": {
-    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
+    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. .",
+    "prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
   },
   "devDependencies": {
-    "@vscode/test-web": "0.0.48"
+    "@vscode/test-web": "0.0.48",
+    "typescript-esbuild": "0.3.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vscode-atom-keybindings.git"
+    "url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/vscode-atom-keybindings/issues"
+    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
+  },
+  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
+  "type": "module",
+  "private": "false",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Nikola Hristov",
+    "email": "nikola@nikolahristov.tech",
+    "url": "https://nikolahristov.tech"
   }
 }
