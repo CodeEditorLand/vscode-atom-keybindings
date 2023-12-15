@@ -2,7 +2,7 @@
 	"name": "atom-keybindings",
 	"displayName": "Atom Keymap",
 	"version": "0.0.1",
-	"private": "false",
+	"private": false,
 	"description": "Popular Atom keybindings for Visual Studio Code",
 	"homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
 	"bugs": {
