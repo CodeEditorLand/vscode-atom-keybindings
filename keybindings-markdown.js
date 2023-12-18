@@ -9,7 +9,7 @@ const headerContent = `| Command | Mac | Windows | Linux |
 `;
 const rowContent = (
 	accumulatedContent,
-	row
+	row,
 ) => `${accumulatedContent}| ${row.command} | ${row.mac} | ${row.win} | ${row.linux} |
 `;
 
