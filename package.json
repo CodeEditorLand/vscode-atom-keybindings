@@ -551,7 +551,7 @@
 		]
 	},
 	"devDependencies": {
-		"@vscode/test-web": "0.0.49",
+		"@vscode/test-web": "0.0.50",
 		"typescript-esbuild": "0.3.3"
 	},
 	"publishConfig": {
