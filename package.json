@@ -552,7 +552,7 @@
 	},
 	"devDependencies": {
 		"@vscode/test-web": "0.0.50",
-		"typescript-esbuild": "0.3.3"
+		"typescript-esbuild": "0.3.4"
 	},
 	"publishConfig": {
 		"access": "public"
