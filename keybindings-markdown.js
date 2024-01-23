@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("node:fs");
 
 // Get keybindings from package.json
 const keybindings = require("./package.json").contributes.keybindings;
