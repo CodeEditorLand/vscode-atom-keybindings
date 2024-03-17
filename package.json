@@ -542,7 +542,7 @@
     ]
   },
   "devDependencies": {
-    "@vscode/test-web": "^0.0.33"
+    "@vscode/test-web": "0.0.33"
   },
   "icon": "atom-keyboard-padded.png",
   "preview": true,
