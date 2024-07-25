@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
+=======
+	"name": "atom-keybindings",
+	"displayName": "Atom Keymap",
+	"description": "Popular Atom keybindings for Visual Studio Code",
+	"scripts": {
+		"open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
+	},
+>>>>>>> ec3dc007b2f6f6d3355ee59dfc7efc8547a484cc
 	"contributes": {
 		"configurationDefaults": {
 			"editor.formatOnPaste": true,
@@ -525,6 +534,7 @@
 			}
 		]
 	},
+<<<<<<< HEAD
 	"description": "Popular Atom keybindings for Visual Studio Code",
 	"devDependencies": {},
 	"displayName": "Atom Keymap",
@@ -539,3 +549,13 @@
 		"open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
 	}
 }
+=======
+	"devDependencies": {},
+	"icon": "atom-keyboard-padded.png",
+	"preview": true,
+	"extensionKind": [
+		"ui",
+		"workspace"
+	]
+}
+>>>>>>> ec3dc007b2f6f6d3355ee59dfc7efc8547a484cc
