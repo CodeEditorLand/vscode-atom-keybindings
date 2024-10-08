@@ -1,0 +1,9 @@
+.github
+.vscode
+.vscode-test-web
+build
+node_modules
+.gitignore
+jsconfig.json
+keybindings-markdown.js
+package-lock.json
