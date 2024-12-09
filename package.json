@@ -1,4 +1,27 @@
 {
+	"name": "atom-keybindings",
+	"displayName": "Atom Keymap",
+	"version": "3.3.0",
+	"description": "Popular Atom keybindings for Visual Studio Code",
+	"categories": [
+		"Keymaps"
+	],
+	"keywords": [
+		"keybindings",
+		"keymap"
+	],
+	"bugs": {
+		"url": "https://github.com/Microsoft/vscode-atom-keybindings/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Microsoft/vscode-atom-keybindings.git"
+	},
+	"license": "MIT",
+	"publisher": "ms-vscode",
+	"scripts": {
+		"open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
+	},
 	"contributes": {
 		"configurationDefaults": {
 			"editor.formatOnPaste": true,
@@ -525,17 +548,17 @@
 			}
 		]
 	},
-	"description": "Popular Atom keybindings for Visual Studio Code",
-	"devDependencies": {},
-	"displayName": "Atom Keymap",
+	"dependencies": {},
+	"devDependencies": {
+		"@codeeditorland/test-web": "^0.0.33"
+	},
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"icon": "atom-keyboard-padded.png",
+	"preview": true,
 	"extensionKind": [
 		"ui",
 		"workspace"
-	],
-	"icon": "atom-keyboard-padded.png",
-	"name": "atom-keybindings",
-	"preview": true,
-	"scripts": {
-		"open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
-	}
+	]
 }
